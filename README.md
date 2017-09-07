@@ -1,8 +1,8 @@
 # vmbackup-xenserver
 Bash script for backing up Xenserver VMs 
 
-Normal_backup.sh
 
+Normal_backup.sh
 What does it do?
 
 You want to auto backup (create a clone of your VM) on another SR? Then, this script is for you.
@@ -17,8 +17,8 @@ This bash shell will do following steps for backing up XEN server VM:
 - Clean up by removing snapshots.
 - Wait 120 seconds before processing another VM.
 
-DetachHDD_backup.sh
 
+DetachHDD_backup.sh
 What does it do?
 
 Imagine you have a VM with 2 disk: 1 10GB-disk for system, and 1-200GB-disk for data. For some reason, you don't want to back up the data disk. Then, this script is just for you.
